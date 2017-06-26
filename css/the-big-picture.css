@@ -5,7 +5,24 @@
  */
 
 body {
-	margin-top: 150px;
+	margin-top: 50px;
 	margin-bottom: 50px;
-  background-color: #AED4D7;  
+  background-color: #AED4D7;    
+  background-image: url("/images/damascus.png");
+  background-repeat: repeat;
+}
+
+.brown_stripe {
+  width: 100%;
+  background-color: #493522;
+  height: 150px;
+  position: absolute;
+  top: 100px;
+  z-index: 100;
+  left: 0px;
+}
+
+img {
+  z-index: 900;
+  position: relative;
 }
